@@ -1,17 +1,7 @@
-# to display another " middle of the string
-message = "Python \"Programming"
-print(message)
-# to display ' middle of the string
-message = "Python \'Programming"
-print(message)
-# to display \ middle of the string
-message = "Python \\Programming"
-print(message)
-# for new line
-message = "Python \nProgramming"
-print(message)
-# better to use """ """ instead of n\ otherwise that's look ugly
-message = """Python
-Programming
-"""
-print(message)
+first = "Sim"
+last = "Ona"
+# full = first + "" + last  # concatenate
+# print(full)
+# instead of concatenation it's better to use this approach
+full = f"{first} {last} {3+9} {len(last)}"  # formatted strings
+print(full)
