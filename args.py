@@ -1,5 +1,5 @@
 def save_user(**user):
-    print(user["namegit"])
+    print(user["name"])
 
 
 save_user(id=1, name="admin")
